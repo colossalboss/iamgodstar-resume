@@ -13,8 +13,8 @@
 #left,
 #right {
     position: fixed;
-    top: 50% !important;
-    bottom: 50% !important;
+    top: 40% !important;
+    bottom: 60% !important;
     margin-top: auto;
     margin-bottom: auto;
     z-index: 2;
@@ -22,7 +22,11 @@
 
 #right {
     right: 0;
-    padding-right: 1rem;
+    padding-right: .5rem;
+}
+
+#left {
+    padding-left: .5rem;
 }
 
 #footer {
