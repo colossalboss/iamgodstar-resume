@@ -2,3 +2,9 @@
 body {
     background-color: #e9ecef;;
 }
+
+@media screen and (max-width: 400px) {
+    .col-md-12 {
+        padding: .5rem 0;
+    }
+}

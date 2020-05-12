@@ -7,6 +7,22 @@
 
 #main {
     padding-top: 70px;
+    padding-bottom: 1rem;
+}
+
+#left,
+#right {
+    position: fixed;
+    top: 50% !important;
+    bottom: 50% !important;
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 2;
+}
+
+#right {
+    right: 0;
+    padding-right: 1rem;
 }
 
 #footer {
