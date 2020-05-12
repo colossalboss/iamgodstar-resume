@@ -20,6 +20,10 @@
     z-index: 2;
 }
 
+.arrow-nav i:hover {
+    cursor: pointer !important;
+}
+
 #right {
     right: 0;
     padding-right: .5rem;
